@@ -2,7 +2,11 @@ Question Source : https://datalemur.com/blog/atlassian-sql-interview-questions
 
 SQL Question 1: Average Bug Resolutions Time by Teams
 
-Atlassian provides products like JIRA that helps keep track of tasks, bugs and issues among other features. Assume you have two tables, teams and bugs. The teams table contains information about each team and its team_id, and the bugs table contains information about each bug, its bug_id, the team who resolved it and the start and resolution date.
+Atlassian provides products like JIRA that helps keep track of tasks, 
+bugs and issues among other features. Assume you have two tables, teams and bugs. 
+The teams table contains information about each team and its team_id, 
+and the bugs table contains information about each bug, 
+its bug_id, the team who resolved it and the start and resolution date.
 
 
 The objective is to write a SQL query to calculate the average resolution time for bugs for each team.
